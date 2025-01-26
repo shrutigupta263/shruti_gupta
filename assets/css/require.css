@@ -210,7 +210,7 @@ body.loaded { overflow: visible;}
 .header.active { box-shadow: var(--shadow);}
 .header .container {
   display: flex;
-  justify-items: center;
+  justify-items: space-betwwen;
   align-items: center;
 }
 .nav-toggle-btn {
@@ -252,4 +252,3 @@ body.loaded { overflow: visible;}
   transition: var(--transition-1);
  }
  .navbar-link:is(:hover, :focus-visible, .active) { color: var(--orange-red);}
- 
