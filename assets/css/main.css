@@ -1,0 +1,7 @@
+/**components**/
+@import url("./components/btn.css");
+@import url("./components/slider.css");
+@import url("./components/card.css");
+/* header */
+.header { background-color: transparent; }
+.header.active { background-color: var(--white);}
