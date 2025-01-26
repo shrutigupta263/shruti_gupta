@@ -1,8 +1,8 @@
 'use strict';
 /* Add eventlistener on multiple elements */
-const addEventOnElements= funstion (ElementInternals, eventType, callback)
+const addEventOnElements= function (elements, eventType, callback)
 {
-    for (let i=0, len=ElementInternals.length; i<len; i++) 
+    for (let i=0, len= elements.length; i<len; i++) 
     {
         elements[i].addEventListener(eventType, callback);
     }
