@@ -196,6 +196,7 @@ body.loaded { overflow: visible;}
     100% { transform: rotate(1turn); }
 }
 /* HEADER */
+.navbar,
 .header .btn { display:none; }
 .header {
   position: fixed;
@@ -210,7 +211,7 @@ body.loaded { overflow: visible;}
 .header.active { box-shadow: var(--shadow);}
 .header .container {
   display: flex;
-  justify-items: space-betwwen;
+  justify-content: space-betwwen;
   align-items: center;
 }
 .nav-toggle-btn {
@@ -224,7 +225,7 @@ body.loaded { overflow: visible;}
   width: 100%;
   background-color: var(--white);
   border-block: 2px solid var(--jet);
-  transition-delay: 0.25s var(--cubic-out);
+  transition: 0.25s var(--cubic-out);
   transition-delay: 0.15s;
   transform: scaleY(0);
   transform-origin: top;
