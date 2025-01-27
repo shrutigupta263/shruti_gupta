@@ -196,7 +196,6 @@ body.loaded { overflow: visible;}
     100% { transform: rotate(1turn); }
 }
 /* HEADER */
-.navbar,
 .header .btn { display:none; }
 .header {
   position: fixed;
