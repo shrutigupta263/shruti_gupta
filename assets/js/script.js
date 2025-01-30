@@ -24,4 +24,4 @@ const activeHeader =  function() {
      window.scrollY > 50 ? header.classList.add("active")
      : header.classList.remove("active");
 }
-window.addEventListener("scroll",activeHeader);
+window.addEventListener("scroll",activeHeader):
